@@ -1,3 +1,13 @@
+public static class Item
+{
+    private int myCatNum, myInventory;
+    public Item(int nNum, int nInv)
+    {
+        myCatNum = nNum;
+        myInventory = nInv;
+    }
+    public int getCatNum(){return myCatNum;}
+    public int getInventory(){return myInventory;}
 
                             
 public static int linearSearch(Item[] store, int catNumToFind)
@@ -61,7 +71,7 @@ public static int recursiveBinarySearch(Item[] store, int catNumToFind, int nLow
  }  
   
 }
-
+}
  Item[] store = 
 {
   new Item(184, 14), 
